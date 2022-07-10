@@ -3,16 +3,16 @@
 
 // flag
 
-function isPositiveEvenNumber(n) {
-  let isValid;
-  // checking
-  if (n > 0 && n % 2 === 0) {
-    isValid = true;
-  } else {
-    isValid = false;
-  }
-  return isValid;
-}
+// function isPositiveEvenNumber(n) {
+//   let isValid;
+//   // checking
+//   if (n > 0 && n % 2 === 0) {
+//     isValid = true;
+//   } else {
+//     isValid = false;
+//   }
+//   return isValid;
+// }
 
  //version 2
 

@@ -31,3 +31,41 @@ function sumDigits(n) {
 }
 
 console.log(sumDigits(523));
+
+
+// function getTaxiCount(passengerCount) {
+//     if (passengerCount <= 0) return -1;
+//     if (passengerCount > 1 && passengerCount < 4) {
+//         return "1 xe 4 cho"
+//     }
+//     if (passengerCount > 4 && passengerCount < 10) {
+//         return "2 xe , 1 xe 4 cho, 1 xe 7 cho)"
+//     }
+//     if (passengerCount > 10) {
+//         return "3 xe 7 cho"
+//     }
+
+// }
+// console.log(getTaxiCount(15));
+
+// function bigNumberDigits(n) {
+//     if (n.toString().length !== 3) return -1;
+//     const ones = n % 10;
+//     const tens = Math.trunc((n % 100) / 10);
+//     const hunders = Math.trunc(n / 100);
+
+//     let max = hunders;
+//     if (max < tens) max = tens
+//     if (max < ones) max = ones
+//     return max
+// }
+
+// console.log(bigNumberDigits(193));
+
+
+// function compareNumber(a, b) {
+//     if (a > b) return 1
+//     if (a === b) return 0
+//     if (a < b) return -1
+// }
+// console.log(compareNumber(7,3));

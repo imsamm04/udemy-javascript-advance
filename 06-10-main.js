@@ -10,7 +10,7 @@
 function findMax(a, b, c) {
     let max = -1;
     //check with b, c
-    if ( b > max) max = b;
+    if ( a > max) max = a;
     if ( b > max) max = b;
     if (c > max) max = c;
 

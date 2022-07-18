@@ -34,17 +34,72 @@
 // console.log(result);
 
 
-function checkIfAllEven(numberList) {
-    if (!Array.isArray(numberList)) return false;
-    let isValid = true;
-    for (let i = 0; i < numberList.length; i++) {
-        const number = numberList[i];
-        if (number % 2 !== 0) {
-            isValid = false;
-            break;
-        }
-    }
-    return isValid;
+// function checkIfAllEven(numberList) {
+//     if (!Array.isArray(numberList)) return false;
+//     let isValid = true;
+//     for (let i = 0; i < numberList.length; i++) {
+//         const number = numberList[i];
+//         if (number % 2 !== 0) {
+//             isValid = false;
+//             break;
+//         }
+//     }
+//     return isValid;
+// }
+// console.log(checkIfAllEven([2, 1, 3]));
+// console.log(checkIfAllEven([2, 4, 6]));
+
+// function checkIfAllEven(numberList) {
+//     if (!Array.isArray(numberList)) return false;
+
+//     let isValid = true;
+
+//     for (let i = 0; i < numberList.length; i++) {
+//         const number = numberList[i];
+//         if (number % 2 !== 0) {
+//             isValid = false;
+//             break;
+//         }
+//     }
+//     return isValid;
+// }
+
+// console.log(checkIfAllEven([1,2, 4, 6]));
+
+// a = 4;
+// if(a > 0) {
+//     let b = 6;
+//     console.log(b);
+// }
+
+// const b = 7;
+
+// function sayHello() {
+//     const name = 'Easy front-1';
+//     console.log(name);
+
+//     function sprint() {
+//         const language = 'en';
+//         console.log(language);
+//         console.log(name);
+//     }
+
+//     sprint();
+// }
+
+// sayHello()
+
+
+// var a = 5;
+// var a = 6;
+
+// console.log(a);
+
+
+function hosting() {
+//  console.log(a);
+ const a = 5;
+ console.log(a);
 }
-console.log(checkIfAllEven([2, 1, 3]));
-console.log(checkIfAllEven([2, 4, 6]));
+
+hosting();

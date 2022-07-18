@@ -74,32 +74,32 @@
 
 // const b = 7;
 
-// function sayHello() {
-//     const name = 'Easy front-1';
-//     console.log(name);
+function sayHello() {
+    const name = 'Easy front-1';
+    console.log(name);
 
-//     function sprint() {
-//         const language = 'en';
-//         console.log(language);
-//         console.log(name);
-//     }
+    function sprint() {
+        const language = 'en';
+        console.log(language);
+        console.log(name);
+    }
 
-//     sprint();
-// }
-
-// sayHello()
-
-
-// var a = 5;
-// var a = 6;
-
-// console.log(a);
-
-
-function hosting() {
-//  console.log(a);
- const a = 5;
- console.log(a);
+    sprint();
 }
 
-hosting();
+sayHello()
+
+
+var a = 5;
+var a = 6;
+
+console.log(a);
+
+
+// function hosting() {
+// //  console.log(a);
+//  const a = 5;
+//  console.log(a);
+// }
+
+// hosting();

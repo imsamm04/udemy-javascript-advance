@@ -74,26 +74,26 @@
 
 // const b = 7;
 
-function sayHello() {
-    const name = 'Easy front-1';
-    console.log(name);
+// function sayHello() {
+//     const name = 'Easy front-1';
+//     console.log(name);
 
-    function sprint() {
-        const language = 'en';
-        console.log(language);
-        console.log(name);
-    }
+//     function sprint() {
+//         const language = 'en';
+//         console.log(language);
+//         console.log(name);
+//     }
 
-    sprint();
-}
+//     sprint();
+// }
 
-sayHello()
+// sayHello()
 
 
-var a = 5;
-var a = 6;
+// var a = 5;
+// var a = 6;
 
-console.log(a);
+// console.log(a);
 
 
 // function hosting() {

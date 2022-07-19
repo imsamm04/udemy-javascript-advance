@@ -10,13 +10,26 @@
 
 
 
-function init() {
-    var name = "abc";
+// function init() {
+//     var name = "abc";
+//     function displayName() {
+//         console.log(name);
+//     }
+//     return displayName;
+// }
+
+// const myFunction = init();
+// myFunction();
+
+
+
+function makeFunction() {
+    var name = 'abc';
     function displayName() {
         console.log(name);
     }
     return displayName;
 }
 
-const myFunction = init();
+var myFunction = makeFunction();
 myFunction();

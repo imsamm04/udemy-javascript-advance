@@ -80,11 +80,33 @@
 // Sum(1,2,numberList)
 
 
-function sum(x) {
-    return function(y){
-        return x + y;
+// function sum(x) {
+//     return function(y){
+//         return x + y;
+//     }
+// }
+
+// // sum(x)(y);
+// console.log(sum(2)(3));
+
+// function demo() {
+//     console.log('123');
+//     function child() {
+//         console.log('abc');
+//     }
+// }
+
+
+// demo()
+
+
+function parent() {
+    var a = 0;
+    return function () {
+        console.log('-----', a++);
     }
 }
-
-// sum(x)(y);
-console.log(sum(2)(3));
+var child = parent()
+child();
+child();
+child();

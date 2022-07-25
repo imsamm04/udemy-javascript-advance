@@ -1,10 +1,3 @@
-// function writeBlog(topic, callback) {
-//     console.log(`Starting my ${topic} blog.`);
-//     callback();
-//   }
-  
-//   writeBlog('JS', function() {
-//    console.log('runing callback function');
-//   });
-
-console.log([] && "true" && 1);
+for (let i = 0; i < 3; i++) {
+   console.log(i);
+  }

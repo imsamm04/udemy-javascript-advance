@@ -1,21 +1,13 @@
-// const numberList = [2, 4, 6];
-// let sum = 0;
-// for (let i = 0; i < numberList.length; i++) {
-//  sum += numberList[i];
-// }
-// console.log(sum); // 12
-// // the same with above but using reduce()
-// numberList.reduce((sum, number) => sum + number); 
 
-function findMax(numberList) {
+function findMaxEach(numberList) {
   if(!Array.isArray(numberList) || numberList.length === 0) return undefined;
   let max = numberList[0];
-  for(let i = 0; i < numberList.length; i++){
-    if(numberList[i] > max) {
-      max = numberList[i];
+  numberList.forEach((number)=>{
+    if(number > max) {
+      max = number
     }
-  }
+  })
 return max;
 }
 
-console.log(findMax([2,3,9,4,5]));
+console.log(findMaxEach([2,11,3,9,4,5]));

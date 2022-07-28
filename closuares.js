@@ -1,13 +1,19 @@
 
-function findMaxEach(numberList) {
-  if(!Array.isArray(numberList) || numberList.length === 0) return undefined;
-  let max = numberList[0];
-  numberList.forEach((number)=>{
-    if(number > max) {
-      max = number
-    }
-  })
-return max;
-}
+// function findMaxEach(numberList) {
+//   if(!Array.isArray(numberList) || numberList.length === 0) return undefined;
+//   let max = numberList[0];
+//   numberList.forEach((number)=>{
+//     if(number > max) {
+//       max = number
+//     }
+//   })
+// return max;
+// }
 
-console.log(findMaxEach([2,11,3,9,4,5]));
+// console.log(findMaxEach([2,11,3,9,4,5]));
+
+const numberList = [1, 3, 5, 2, 7];
+// const equal = numberList.filter(x => x % 2 === 0);
+// const equal = numberList.filter((x) => x % 2 === 0)
+const equal = numberList.filter((x) => x <= 4 || x % 5 === 0)
+console.log(equal);
